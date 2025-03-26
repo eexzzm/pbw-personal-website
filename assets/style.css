@@ -216,6 +216,7 @@ button:hover {
 }
 
 header{
+    background-color: #FAF7F0;
     position: sticky;
     top: 0;
     display: flex;
