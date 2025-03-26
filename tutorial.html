@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+    <div id="header"></div>
+
+    <div class="container">
+            <h2>1. HTML Introduction</h2>
+            <p>HTML (HyperText Markup Language) is used to create the structure of web pages.</p>
+            <pre>&lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Judul Halaman&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Hello, World!&lt;/h1&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;</pre>
+            
+            <h2>2. PHP Introduction</h2>
+            <p>PHP is a programming language for creating dynamic web pages.</p>
+            <pre>&lt;?php
+        echo "Hello, World!";
+    ?&gt;</pre>
+            
+            <h2>3. Data type and variable</h2>
+            <pre>&lt;?php
+        $text = "Hello"; // String
+        $number = 10; // Integer
+        $float = 10.5; // Float
+        $boolean = true; // Boolean
+    ?&gt;</pre>
+            
+            <h2>4. If and Switch Statement</h2>
+            <pre>&lt;?php
+        $nilai = 75;
+        if ($nilai >= 70) {
+            echo "Lulus";
+        } else {
+            echo "Tidak Lulus";
+        }
+    ?&gt;</pre>
+            <pre>&lt;?php
+        $warna = "merah";
+        switch ($warna) {
+            case "merah":
+                echo "Berhenti";
+                break;
+            case "kuning":
+                echo "Hati-hati";
+                break;
+            default:
+                echo "Jalan";
+        }
+    ?&gt;</pre>
+    
+            <h2>5. Basic Loop</h2>
+            <pre>&lt;?php
+        for ($i = 1; $i <= 5; $i++) {
+            echo "Angka: $i \n";
+        }
+    ?&gt;</pre>
+    
+            <h2>6. Array with PHP</h2>
+            <pre>&lt;?php
+        $buah = ["Apel", "Mangga", "Pisang"];
+        foreach ($buah as $b) {
+            echo $b . " ";
+        }
+    ?&gt;</pre>
+        </div>
+    
+    <script src="./assets/script.js"></script>
+</body>
+</html>
